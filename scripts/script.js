@@ -26,7 +26,7 @@ function main() {
 
     let watch;
     const gltfLoader = new GLTFLoader();
-    gltfLoader.load('model/watch01.gltf', gltf => {
+    gltfLoader.load('object/watch01.gltf', gltf => {
         const root = gltf.scene;
         scene.add(root);
         watch=root.getObjectByName('extracted_09001');
